@@ -25,6 +25,9 @@
             }, delay);
         };
     }
+ const search = debounce((e) => {
+        console.log("Searching for:", e.target.value);
+    }, 500);
 
    
 </script>
